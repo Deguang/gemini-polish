@@ -12,7 +12,7 @@
   window.__geminiPolishLoaded = true;
 
   // ============================================================
-  // Mermaid graph renderer (Gemini Graph Viewer · unchanged core)
+  // Mermaid graph renderer (Gemini Polish · unchanged core)
   // ============================================================
 
   function getTheme() {

@@ -47,7 +47,7 @@ A customizable reading experience for Google Gemini. Adjust typography, fade awa
 
 ## 🚀 Installation
 
-1. **Chrome Web Store**: [Gemini Polish & Graph Viewer](https://chromewebstore.google.com/detail/ajboihpfgkpcpeibiahobpdogdbbmfpn)
+1. **Chrome Web Store**: [Gemini Polish | Typography & Pro Diagramming](https://chromewebstore.google.com/detail/ajboihpfgkpcpeibiahobpdogdbbmfpn)
 2. **Developer install**:
    - Clone this repo
    - Open `chrome://extensions/`, enable **Developer mode**

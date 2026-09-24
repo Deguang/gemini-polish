@@ -7,7 +7,7 @@
 process.env.NO_PROXY = '127.0.0.1,localhost';
 import fs from 'node:fs';
 import path from 'node:path';
-import puppeteer from '/Users/duyu/Documents/Codespaces/gemini-graph-viewer/node_modules/puppeteer/lib/esm/puppeteer/puppeteer.js';
+import puppeteer from '/Users/deguang/Documents/Codespaces/gemini-graph-viewer/node_modules/puppeteer/lib/esm/puppeteer/puppeteer.js';
 
 const EXT   = 'hfkikekhjmmoogpmjoehjklgjjnpmjbm';
 const DIR   = path.dirname(new URL(import.meta.url).pathname);

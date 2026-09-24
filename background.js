@@ -1,5 +1,5 @@
 /**
- * Gemini Polish & Graph Viewer · background service worker
+ * Gemini Polish | Typography & Pro Diagramming · background service worker
  * - On install: seed default Reading Mode preset into storage
  * - On update: migrate a sync-only config from older builds into local
  * - On install/update: retrofit already-open Gemini tabs with the new CSS+JS

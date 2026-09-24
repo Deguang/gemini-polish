@@ -29,7 +29,7 @@ assets:
   promo_large: ./preview/promo-cover-1400x560.png
 locales:
   en:
-    name: Gemini Polish & Graph Viewer
+    name: Gemini Polish | Typography & Pro Diagramming
     short_description: "Customizable reading experience for Google Gemini: typography, colour schemes and a split-view Mermaid renderer."
     description: |
       Gemini Polish turns Google Gemini into a reading surface you actually want to spend time in - and keeps the diagram viewer you already know.
@@ -64,7 +64,7 @@ locales:
       - Fixed: valid Mermaid diagrams with quoted subgraph titles no longer fail to parse
       - Performance: removed a per-second scan that forced layout, and listeners that accumulated per diagram
   zh_CN:
-    name: Gemini Polish & Graph Viewer
+    name: Gemini Polish | Typography & Pro Diagramming
     short_description: 为 Google Gemini 定制阅读体验：排版、配色方案、界面精简，以及分栏式 Mermaid 图表渲染器。
     description: |
       Gemini Polish 把 Google Gemini 变成一个你愿意长时间停留的阅读界面，同时保留你已经熟悉的图表查看器。
@@ -99,7 +99,7 @@ locales:
       - 修复：带引号子图标题的合法 Mermaid 图不再解析失败
       - 性能：移除每秒一次的强制布局扫描，以及每个图表累积的监听器
   zh_TW:
-    name: Gemini Polish & Graph Viewer
+    name: Gemini Polish | Typography & Pro Diagramming
     short_description: 為 Google Gemini 打造可自訂的閱讀體驗：排版、配色方案、介面簡化，以及分欄式 Mermaid 圖表算繪器。
     description: |
       Gemini Polish 把 Google Gemini 變成一個你願意長時間停留的閱讀介面，同時保留你已經熟悉的圖表檢視器。
@@ -124,7 +124,7 @@ locales:
       - 修復帶引號子圖標題的 Mermaid 解析失敗
       - 效能：移除每秒強制版面計算的掃描與累積的事件監聽器
   ja:
-    name: Gemini Polish & Graph Viewer
+    name: Gemini Polish | Typography & Pro Diagramming
     short_description: Google Gemini の読書体験をカスタマイズ：タイポグラフィ、配色、画面の簡素化、分割表示の Mermaid 図レンダラー。
     description: |
       Gemini Polish は Google Gemini を「長く読んでいられる画面」に変えます。これまでの図表ビューアもそのまま使えます。
@@ -149,7 +149,7 @@ locales:
       - 引用符付きサブグラフ名の Mermaid 解析エラーを修正
       - 性能：毎秒のレイアウト強制走査と蓄積するリスナーを除去
   hi:
-    name: Gemini Polish & Graph Viewer
+    name: Gemini Polish | Typography & Pro Diagramming
     short_description: "Google Gemini के लिए पठन अनुभव अनुकूलित करें: टाइपोग्राफ़ी, रंग योजनाएँ, इंटरफ़ेस सरलीकरण, और विभाजित-दृश्य Mermaid आरेख रेंडरर।"
     description: |
       Gemini Polish, Google Gemini को एक ऐसा पठन-अनुभव बनाता है जिसमें समय बिताना अच्छा लगे - और आपका परिचित आरेख व्यूअर भी बना रहता है।
@@ -174,7 +174,7 @@ locales:
       - उद्धृत सबग्राफ़ शीर्षक वाले Mermaid आरेख की पार्स त्रुटि ठीक
       - प्रदर्शन: प्रति-सेकंड लेआउट स्कैन और संचित लिसनर हटाए गए
   de:
-    name: Gemini Polish & Graph Viewer
+    name: Gemini Polish | Typography & Pro Diagramming
     short_description: "Anpassbares Leseerlebnis für Google Gemini: Typografie, Farbschemata und ein Mermaid-Renderer mit geteilter Ansicht."
     description: |
       Gemini Polish macht aus Google Gemini eine Leseoberflaeche, in der man sich gern aufhaelt - und behaelt den vertrauten Diagramm-Viewer.
@@ -199,7 +199,7 @@ locales:
       - Behoben: Mermaid-Diagramme mit zitierten Subgraph-Titeln
       - Performance: sekuendlicher Layout-Scan und angesammelte Listener entfernt
   fr:
-    name: Gemini Polish & Graph Viewer
+    name: Gemini Polish | Typography & Pro Diagramming
     short_description: "Lecture personnalisable pour Google Gemini : typographie, palettes et rendu de diagrammes Mermaid en vue partagée."
     description: |
       Gemini Polish transforme Google Gemini en une surface de lecture ou l'on reste volontiers - tout en conservant la visionneuse de diagrammes que vous connaissez.

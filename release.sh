@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Gemini Graph (Flowchart) Split-Viewer Release Script
+# Gemini Polish | Typography & Pro Diagramming Release Script
 # 使用方法: 
 #   bash release.sh               (打包并上传)
 #   bash release.sh --upload-only (仅上传 release/ 下最新的 zip)

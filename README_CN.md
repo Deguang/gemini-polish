@@ -47,7 +47,7 @@
 
 ## 🚀 安装
 
-1. **Chrome 应用商店**：[Gemini Polish & Graph Viewer](https://chromewebstore.google.com/detail/ajboihpfgkpcpeibiahobpdogdbbmfpn)
+1. **Chrome 应用商店**：[Gemini Polish | Typography & Pro Diagramming](https://chromewebstore.google.com/detail/ajboihpfgkpcpeibiahobpdogdbbmfpn)
 2. **开发者手动安装**：
    - 克隆本仓库
    - 浏览器打开 `chrome://extensions/`，开启**开发者模式**
