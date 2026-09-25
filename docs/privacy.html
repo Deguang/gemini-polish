@@ -32,9 +32,39 @@
         li { margin-bottom: 8px; }
         .back-link { display: inline-block; margin-bottom: 20px; font-weight: 600; }
         footer { margin-top: 80px; font-size: 0.9rem; color: var(--text-light); text-align: center; border-top: 1px solid #eee; padding-top: 40px; }
-    </style>
+    
+        .lang-switcher { position: absolute; top: 20px; right: 20px; z-index: 1000; }
+        .lang-switcher select { padding: 8px 32px 8px 16px; border-radius: 20px; border: 1px solid rgba(0,0,0,0.1); background: rgba(255,255,255,0.9); color: var(--text-main); font-size: 0.9rem; font-weight: 500; cursor: pointer; outline: none; box-shadow: 0 4px 12px rgba(0,0,0,0.05); appearance: none; background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"); background-repeat: no-repeat; background-position: right 12px top 50%; background-size: 10px auto; backdrop-filter: blur(10px); transition: border-color 0.2s; }
+        .lang-switcher select:hover { border-color: #4285F4; }
+</style>
 </head>
 <body>
+
+    <div class="lang-switcher">
+        <select id="langSelect" onchange="window.location.href=this.value">
+            <option value="index.html">English</option>
+            <option value="zh.html">简体中文</option>
+            <option value="ja.html">日本語</option>
+            <option value="ko.html">한국어</option>
+            <option value="de.html">Deutsch</option>
+            <option value="fr.html">Français</option>
+            <option value="hi.html">हिन्दी</option>
+        </select>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const path = window.location.pathname;
+            const select = document.getElementById('langSelect');
+            if(path.endsWith('zh.html')) select.value = 'zh.html';
+            else if(path.endsWith('ja.html')) select.value = 'ja.html';
+            else if(path.endsWith('ko.html')) select.value = 'ko.html';
+            else if(path.endsWith('de.html')) select.value = 'de.html';
+            else if(path.endsWith('fr.html')) select.value = 'fr.html';
+            else if(path.endsWith('hi.html')) select.value = 'hi.html';
+            else select.value = 'index.html';
+        });
+    </script>
+
     <a href="index.html" class="back-link">← Back to Home</a>
     <h1>Privacy Policy</h1>
     <p>Last Updated: March 31, 2026</p>
@@ -84,6 +114,10 @@
         @media (prefers-color-scheme: dark) {
             .footer { --dg-border: #2a2e37; --dg-heading: #f3f4f6; --dg-muted: #9ca3af; --dg-main: #ffffff; }
         }
+
+        .lang-switcher { position: absolute; top: 20px; right: 20px; z-index: 1000; }
+        .lang-switcher select { padding: 8px 32px 8px 16px; border-radius: 20px; border: 1px solid rgba(0,0,0,0.1); background: rgba(255,255,255,0.9); color: var(--text-main); font-size: 0.9rem; font-weight: 500; cursor: pointer; outline: none; box-shadow: 0 4px 12px rgba(0,0,0,0.05); appearance: none; background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23333%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E"); background-repeat: no-repeat; background-position: right 12px top 50%; background-size: 10px auto; backdrop-filter: blur(10px); transition: border-color 0.2s; }
+        .lang-switcher select:hover { border-color: #4285F4; }
 </style>
     <div class="deguang-footer-fallback">
 
